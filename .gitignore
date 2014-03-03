@@ -1,0 +1,7 @@
+config/client_session_key.aes
+config/mongoDB.yml
+cabal-dev
+dist
+.static-cache
+static/tmp
+*.sqlite3

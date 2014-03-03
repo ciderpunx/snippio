@@ -1,0 +1,22 @@
+Default: &defaults
+  host: "*4" # any IPv4 host
+  port: 3000
+  approot: "http://snipp.io:3000"
+  copyright: "No copyright. Fuck that."
+  #analytics: UA-YOURCODE
+
+Development:
+  <<: *defaults
+
+Testing:
+  <<: *defaults
+
+Staging:
+  <<: *defaults
+
+Production:
+  approot: "http://snipp.io"
+  host: "127.0.0.1"
+  port: 3000
+  copyright: "No copyright. Fuck that."
+  <<: *defaults

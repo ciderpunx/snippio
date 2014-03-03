@@ -1,0 +1,18 @@
+User
+    ident Text
+    password Text Maybe
+    apikey  Text Maybe
+    UniqueUser ident
+    deriving Typeable
+Profile
+    user    UserId
+    UniqueProfile user
+Email
+    email Text
+    user UserId Maybe
+    verkey Text Maybe
+    UniqueEmail email
+Snip
+	title Text 
+	content Textarea
+  created UTCTime 

@@ -1,0 +1,109 @@
+body
+  font-family: 'PT Serif', serif
+  font-size: 18px
+  background: url("/static/img/billie_holiday.png") repeat scroll 0% 0% transparent
+  color: #333
+  line-height: 1.375
+  min-height:85%
+p
+  font-family: 'PT Serif', serif
+  font-size: 22px
+  line-height: 1.375
+  margin-bottom: 0.8em
+html
+  height:100%
+body, button, input, select, textarea
+  font-family: 'PT Serif', serif
+h1,h2,h3,h4,h5
+  font-family: 'PT Serif', serif
+  font-weight: 700
+h1
+  font-size:45px
+  margin-top:0.4em
+  text-align:center
+  margin-bottom:0.6em
+h2
+  font-size:31px
+  margin:0.4em 0
+h3
+  font-size:27px
+  margin:0.4em 0
+h4
+  font-size:25px
+  margin:0.4em 0
+h5
+  font-size:22px
+  margin:0.4em 0
+.clear
+  clear:both
+a,a:visited
+  color:#08c
+li
+  line-height: 1.375
+  font-size:22px
+nav ul 
+  padding:0
+  margin:0
+  padding:0.5em 0 2.7em 0
+nav ul li
+  background-color: #eee
+  border: 1px solid #ccc
+  box-shadow: 3px 5px 8px -4px #ccc
+  display:block
+  float:left
+  margin: 0 0.6em 0 0 
+  font-size:18px
+  padding: 2px
+nav ul li a, nav ul li a:visited
+  color:#08c
+header h1
+  margin-bottom:2px
+header p
+  font-style:italic
+  font-size:0.98em
+  text-align:center
+footer
+  width:940px
+  padding:1em
+  color:#ccc
+  background-color:#333
+  box-shadow: 3px 3px 12px 2px #999
+  border-radius:0 0 12px 12px 
+  text-align:center
+  margin:auto
+  margin-bottom:1em
+wrapper
+  width: 760px
+  margin: 0 auto
+pre,code
+  background-color:#111
+  color:#2a4
+  border:0
+  padding:4px
+  font:15px normal PT Mono, monospace
+.container
+  background-color:#fff
+  padding:1em
+  min-height:98%
+  border-left:1px solid #ccc
+  border-right:1px solid #ccc
+  box-shadow: 3px 3px 12px -2px #999
+  border-radius:12px 12px 0 0 
+  margin-top:1em
+.half
+  width:49%
+  float:left
+#h2
+  width:97%
+#h3
+  width:97%
+  height:300px
+#message 
+  background-color:#dfb
+  border:2px solid #393
+  border-radius:3px
+  font-weight:700
+  font-size:18px
+  padding:5px
+  text-align:center
+  box-shadow: 3px 5px 15px -4px #999

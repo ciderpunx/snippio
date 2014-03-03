@@ -1,0 +1,15 @@
+/static StaticR Static getStatic
+/auth   AuthR   Auth   getAuth 
+
+/favicon.ico FaviconR GET
+/robots.txt RobotsR GET
+
+/about.html AboutR GET 
+
+/ HomeR GET
+
+/index.html SnipsR GET POST
+/snip/#SnipId SnipR GET
+
+/s SnipsPlainR POST
+/s/#SnipId SnipPlainR GET

@@ -1,0 +1,6 @@
+<pre>
+  <code>
+    \$ echo hello snippio |
+    \  curl -L -d t='my snip'
+    \          -d k=[apikey]
+    \          --data-urlencode c@- @{SnipsPlainR}

@@ -1,0 +1,17 @@
+<h2>About Snipp.IO
+<p>This is a pastebin application made out of <a href="http://www.yesodweb.com">Yesod</a> and <a href="http://http://www.mongodb.org/">mongodb</a>, by <a href="http://charlieharvey.org.uk/">Charlie Harvey</a>. Yes, it does sound a bit fucking hipster. What can I say? At least it&#8217;s not ruby.
+<object type="application/x-shockwave-flash" style="width:400px; height:300px; float:right;margin:10px 0" data="http://www.youtube-nocookie.com/v/5GpOfwbFRcs?color1=111111&amp;color2=111111&amp;rel=0&amp;showsearch=0&amp;version=3&amp;modestbranding=1&amp;fs=1"><param name="movie" value="http://www.youtube-nocookie.com/v/5GpOfwbFRcs?color1=111111&amp;color2=111111&amp;rel=0&amp;showsearch=0&amp;version=3&amp;modestbranding=1&amp;fs=1" /><param name="allowFullScreen" value="true" /><param name="allowscriptaccess" value="always" /></object>
+<p>The idea is that you can log in with your openid (or Google or Yahoo! account if you must) and paste stuff straight to the web. 
+<h2>From the commandline 
+<p>It is entirely possible to use Snipp.IO from the commandline, which is my primary use case. Perhaps it will be useful for you as well. 
+<p>To POST your snippets from the commandline, you&#8217;ll need an API key. Log in and it&#8217;s at the bottom of each page, in the footer. 
+<p>Here&#8217;s an example of using Snipp.IO from the commandline with <a href="http://curl.haxx.se/">curl</a>. 
+<p>^{cliUsage}
+<p>This will return an URL that you can visit in your browser. 
+<h2>Caveat emptor
+<p>I&#8217;d love to have unlimited storage, but I don&#8217;t. I have a free 512MB sandbox account courtesy of <a href="https://www.mongohq.com/home">MongoHQ</a> (thanks!). So stuff may vanish.
+<h2>Shouts out
+<ul>
+  <li>Thanks <a href="http://ox4.org">OX4 for hosting</a> the site
+  <li><a href="https://www.mongohq.com/home">MongoHQ</a> provide a free account, which makes experimental toy projects like this do-able
+  <li>My thanks to the small but friendly <a href="http://www.yesodweb.com/page/community">Yesod community</a> who helped me with daft questions on IRC

@@ -1,0 +1,16 @@
+$maybe _ <- muser
+  <form method=post enctype=#{enctype}>
+    ^{formWidget}
+    <input type=submit value="Create Snip">
+$nothing
+  <p>Snipp.IO is a clipboard on the web. You can <a href="@{AuthR LoginR}">log in</a> and paste some text which you might want later on. It also works from the commandline &mdash; you get an API key when you log in.  
+
+<div #recent .half>
+  <h3>Ten most recent Snips
+  <ul>
+    $forall Entity snipkey snip <- snips
+      <li><a href=@{SnipR snipkey}>#{snipTitle snip}</a>
+  
+<div #cli .half>
+  <h3>Commandline use
+  ^{cliUsage}

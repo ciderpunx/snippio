@@ -1,0 +1,5 @@
+<h3>#{snipTitle snip}
+<p><pre>#{unTextarea $ snipContent snip}</pre>
+<p><br />
+<p><a href="@{SnipsR}">&laquo; Back home</a>
+

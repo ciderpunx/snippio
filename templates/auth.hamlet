@@ -1,0 +1,20 @@
+<div .login-options>                                                           
+    <h2>Login with &hellip; 
+   
+    <div .half>
+      <h3>OpenID                                                    
+      <p>
+          <form method="get" action="@{AuthR oidFwdURL}">                           
+            <input id="openid_identifier" type="text" name="openid_identifier" value="http://">
+            <input id="openid_submit" type="submit" value="Login via OpenID">      
+
+    <div .half>
+      <h3>Corporate networks
+      <p>
+          <form .half method="get" action="@{AuthR oidFwdURL}" .button .google>                                                                                          
+            <input type="hidden" name="openid_identifier" value="https://www.google.com/accounts/o8/id">
+            <input type="submit" value="Login via Google"><br />
+      <p> 
+          <form .half method="get" action="@{AuthR oidFwdURL}" .button .yahoo>            
+            <input type="hidden" name="openid_identifier" value="http://me.yahoo.com">
+            <input type="submit" value="Login via Yahoo!"><br />

@@ -1,0 +1,27 @@
+Default: &defaults
+  database: yourdb
+  connections: 1000
+  host: yourserver
+  port: 10088
+  user: youruser
+  password: 'yourpass'
+
+Development:
+  <<: *defaults
+
+Testing:
+  database: snipp_test
+  <<: *defaults
+
+Staging:
+  database: snipp_staging
+  connections: 100
+  <<: *defaults
+
+Production:
+  database: snippie
+  connections: 1000
+  host: yourserver
+  port: 10088
+  user: youruser
+  password: 'yourpass'
