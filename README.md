@@ -16,10 +16,10 @@ To POST your snippets from the commandline, you’ll need an API key. Log in and
 
 Here’s an example of using Snipp.IO from the commandline with curl.
 
-$ echo hello snippio |
-curl -L -d t='my snip'
--d k=[apikey]
---data-urlencode c@- http://snipp.io/s
+    $ echo hello snippio |
+    curl -L -d t='my snip'
+    -d k=[apikey]
+    --data-urlencode c@- http://snipp.io/s
 
 This will return an URL that you can visit in your browser.
 
