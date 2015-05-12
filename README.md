@@ -6,7 +6,7 @@ The idea is that you can log in with your openid (or Google or Yahoo! account if
 
 ### On the interwebs
 
-Just go to (https://snipp.io)[snipp.io], log in with whatever thingummy and paste stuff.
+Just go to [https://snipp.io](snipp.io), log in with whatever thingummy and paste stuff.
 
 ### From the commandline
 
